@@ -99,15 +99,14 @@ then
     figlet BY MUFTI
     echo "LEGENDS OWL SQUAD"
     read -p "pilih tools di atas:" pl
-
-fi [ $pl = 1 ]
+fi
+if [ $pl = 1 ]
 then
     figlet BY MUFTI
     echo "selamat datang"
     echo "MEMPROSES"
     git clone https://github.com/Mufti05/1.git
     cd 1
-    sh install.sh
     sh tools.sh
 fi
 
@@ -126,12 +125,6 @@ then
     figlet BY MUFTI
     echo "selamat datang"
     echo "MEMPROSES"
-    apt install git
-    apt install php
-    apt install curl
-    apt install ruby
-    apt install figlet
-    gem install lolcat
     git clone https://github.com/TUANB4DUT/TOOLSINSTALLERv3
     cd TOOLSINSTALLERv3
     chmod +x TUANB4DUT.sh
@@ -143,10 +136,6 @@ then
     figlet BY MUFTI
     echo "selamat datang"
     echo "MEMPROSES"
-    pkg install figlet
-    pkg install toilet
-    pkg install lolcat 
-    pkg install ruby
     git clone https://github.com/mrmsdv/sdvspam.git
     cd sdvspam
     sh sdv.sh
@@ -157,11 +146,22 @@ then
     figlet BY MUFTI
     echo "selamat datang"
     echo "MEMPROSES"
+    git clone https://github.com/puja04122003/GTOOL
+    cd GTOOL
+    python2 main.py
+fi
+
+if [ $pl = 99 ]
+then
     pkg install dialog
     pkg install bc
     pip2 install mailfree
     pip2 install requests
-    git clone https://github.com/puja04122003/GTOOL
-    cd GTOOL
-    python2 main.py
+    pkg install figlet
+    pkg install toilet
+    pkg install lolcat 
+    pkg install ruby
+    pkg install python2
+    pkg install php
+    pkg install nodejs
 fi
