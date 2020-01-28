@@ -9,14 +9,14 @@ echo "selamat datang "
 read -p "siapa nama anda:" nm
 sleep 1
 echo "jangan lupa kunjungi fanspage facebook kami dan youtube kami"
-echo "[1]fanspage facebook"
+echo "[1]fanspage facebook" | lolcat
 echo "------------------------" | lolcat
-echo "[2]channel youtube"
+echo "[2]channel youtube" | lolcat
 echo "------------------------" | lolcat
-echo "[3]Mulai"
+echo "[3]Mulai" | lolcat
 echo "------------------------" | lolcat
-echo "pilih yang kalian suka"
-echo "klik 3 untuk masuk script nya"
+echo "pilih yang kalian suka" | lolcat
+echo "klik 3 untuk masuk script nya" | lolcat
 read -p "sialahkan pilih nomernya:" no
 if [ $no = 2 ]
 then 
@@ -56,25 +56,25 @@ fi
 if [ $no = 3 ]
 then
     figlet BY MUFTI
-    echo "Hargai Author"
-    echo "Membuat Tidak Semudah Memakai"
+    echo "Hargai Author" | lolcat
+    echo "Membuat Tidak Semudah Memakai" | lolcat
     sleep 2
     clear
     figlet $nm
-    echo "pilih 15 pilihan dibawah ini"
-    echo "[99]install bahan"
+    echo "pilih 15 pilihan dibawah ini" | lolcat
+    echo "[99]install bahan" | lolcat
     echo "-------------------------------" | lolcat
-    echo "[0]Keluar"
+    echo "[0]Keluar" | lolcat
     echo "-------------------------------" | lolcat
-    echo "=1=SCRIPT 5 TOOLS"
+    echo "=1=SCRIPT 5 TOOLS" | lolcat
     echo "-------------------------------" | lolcat
-    echo "=2=SERANGAN L.O.S"
+    echo "=2=SERANGAN L.O.S" | lolcat
     echo "-------------------------------" | lolcat
-    echo "=3=INSTALL 200 TOOLS"
+    echo "=3=INSTALL 200 TOOLS" | lolcat
     echo "-------------------------------" | lolcat
-    echo "=4=SPAM BIASA"
+    echo "=4=SPAM BIASA" | lolcat
     echo "-------------------------------" | lolcat
-    echo "=5=TOOLS LANGKA"
+    echo "=5=TOOLS VIRTEKS(VIRUS)" | lolcat
     echo "-------------------------------" | lolcat
     echo "=6="
     echo "-------------------------------" | lolcat
@@ -146,9 +146,10 @@ then
     figlet BY MUFTI
     echo "selamat datang"
     echo "MEMPROSES"
-    git clone https://github.com/puja04122003/GTOOL
-    cd GTOOL
-    python2 main.py
+    git clone https://github.com/muhammadfathul/VIRTEX
+    cd VIRTEX
+    chmod +x virtex.sh
+    sh virtex.sh 
 fi
 
 if [ $pl = 99 ]
@@ -164,4 +165,5 @@ then
     pkg install python2
     pkg install php
     pkg install nodejs
+    pkg install curl
 fi
