@@ -76,28 +76,31 @@ then
     echo "-------------------------------" | lolcat
     echo "=5=TOOLS VIRTEKS(VIRUS)" | lolcat
     echo "-------------------------------" | lolcat
-    echo "=6="
+    echo "=6=INSTALL BOTCHAT" | lolcat
     echo "-------------------------------" | lolcat
-    echo "=7="
+    echo "=7=INSTALL FAKECALL" | lolcat
     echo "-------------------------------" | lolcat
-    echo "=8="
+    echo "=8=INSTALL WIFIBUSTER" | lolcat
     echo "-------------------------------" | lolcat
-    echo "=9="
+    echo "=9=CCTV IPCS" | lolcat
     echo "-------------------------------" | lolcat
-    echo "=10="
+    echo "=10=GANTI TAMPILAN TERMUX" | lolcat
     echo "-------------------------------" | lolcat
-    echo "=11="
+    echo "=11=INSTALL DARKFB" | lolcat
     echo "-------------------------------" | lolcat
-    echo "=12="
+    echo "=12=SMS GRATIS" | lolcat
     echo "-------------------------------" | lolcat
-    echo "=13="
+    echo "=13=TOOLS HACK IG" | lolcat
     echo "-------------------------------" | lolcat
-    echo "=14="
+    echo "=14=TRANSLATE" | lolcat
     echo "-------------------------------" | lolcat
     echo "=15="
     echo "-------------------------------" | lolcat
     figlet BY MUFTI
     echo "LEGENDS OWL SQUAD"
+    echo "jika ada tools yang belum work"
+    echo "silahkan contact person saya"
+    echo "0896 0244 9623"
     read -p "pilih tools di atas:" pl
 fi
 if [ $pl = 1 ]
@@ -154,16 +157,119 @@ fi
 
 if [ $pl = 99 ]
 then
-    pkg install dialog
-    pkg install bc
-    pip2 install mailfree
-    pip2 install requests
-    pkg install figlet
-    pkg install toilet
-    pkg install lolcat 
-    pkg install ruby
-    pkg install python2
-    pkg install php
-    pkg install nodejs
-    pkg install curl
+    figlet BY MUFTI
+    echo "memproses"
+    git clone https://github.com/Mufti05/install
+    cd install
+    sh update.sh
 fi
+
+if [ $pl = 0 ]
+then
+    figlet BY MUFTI | lolcat
+    echo "Sampai Jumpa Lagi" | lolcat
+    sleep 1
+    echo "proses keluar..." | lolcat
+    sleep 2
+    echo "input diterima" | lolcat
+    echo "keluar " | lolcat
+    exit
+fi
+
+if [ $pl = 6 ]
+then
+    figlet TOOLS 1
+    echo "memproses"
+    sleep 2
+    git clone https://github.com/Bl4ckDr460n/BotChat
+    cd BotChat
+    python2 BotChat.py
+fi
+
+if [ $pl = 7 ]
+then
+    figlet TOOLS 2
+    echo "memproses"
+    sleep 2
+    git clone https://github.com/T14RB373T/FAKECALL
+    cd FAKECALL
+    bash call.sh
+fi
+
+if [ $pl = 8 ]
+then
+    figlet TOOLS 3
+    echo "memproses"
+    sleep 2
+    git clone https://github.com/lambang007/aircrack
+    cd aircrack
+    sh wifibuster.sh
+fi
+
+if [ $pl = 9 ]
+then
+    figlet BY MUFTI
+    echo "memproses"
+    sleep 2
+    git clone https://github.com/Mufti05/ctvM
+    cd ctvM
+    sh CCTVM.sh
+fi
+
+if [ $pl = 10 ]
+then
+    figlet BY MUFTI
+    echo "memproses"
+    git clone https://github.com/muhammadfathul/GGMUX
+    cd GGMUX
+    chmod 777*
+    ./ggmux.sh
+fi
+
+if [ $pl = 11 ]
+then
+    figlet BY MUFTI
+    echo "memproses"
+    git clone https://github.com/LuciferXtools/D4RK
+    cd D4RK
+    python2 batangtoru.py
+fi
+
+if [ $pl = 12 ]
+then
+    figlet BY MUFTI
+    echo "memproses"
+    git clone https://github.com/KANG-NEWBIE//PayuSpam
+    cd PayuSpam
+    python3 payu.py
+fi
+
+if [ $pl = 13 ]
+then
+    figlet BY MUFTI
+    echo "memproses"
+    git clone https://github.com/DarkCurut08/DarkCurut08
+    cd DarkCurut08
+    chmod +x Moreno777.sh
+    sh Moreno777.sh
+fi
+
+if [ $pl = 14 ]
+then
+    figlet BY MUFTI
+    echo "memproses"
+    git clone https://github.com/widhisec/translate
+    cd translate
+    bash terj.sh
+fi
+
+if [ $pl = 15 ]
+then
+    figlet BY MUFTI
+    echo "memproses"
+    git clone https://github.com/rrudy0966/instatools
+    cd instatools
+    unzip node_modules.zip
+    node index.js
+fi
+    
