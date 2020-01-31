@@ -94,7 +94,7 @@ then
     echo "-------------------------------" | lolcat
     echo "=14=TRANSLATE" | lolcat
     echo "-------------------------------" | lolcat
-    echo "=15="
+    echo "=15=INSTALL BOT IG" | lolcat
     echo "-------------------------------" | lolcat
     figlet BY MUFTI
     echo "LEGENDS OWL SQUAD"
