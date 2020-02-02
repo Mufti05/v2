@@ -9,14 +9,14 @@ echo "selamat datang "
 read -p "siapa nama anda:" nm
 sleep 1
 echo "jangan lupa kunjungi fanspage facebook kami dan youtube kami"
-echo "[1]fanspage facebook" | lolcat
-echo "------------------------" | lolcat
-echo "[2]channel youtube" | lolcat
-echo "------------------------" | lolcat
-echo "[3]Mulai" | lolcat
-echo "------------------------" | lolcat
-echo "pilih yang kalian suka" | lolcat
-echo "klik 3 untuk masuk script nya" | lolcat
+echo "[1]fanspage facebook" 
+echo "------------------------" 
+echo "[2]channel youtube" 
+echo "------------------------" 
+echo "[3]Mulai" 
+echo "------------------------" 
+echo "pilih yang kalian suka" 
+echo "klik 3 untuk masuk script nya" 
 read -p "sialahkan pilih nomernya:" no
 if [ $no = 2 ]
 then 
@@ -56,46 +56,46 @@ fi
 if [ $no = 3 ]
 then
     figlet BY MUFTI
-    echo "Hargai Author" | lolcat
-    echo "Membuat Tidak Semudah Memakai" | lolcat
+    echo "Hargai Author" 
+    echo "Membuat Tidak Semudah Memakai" 
     sleep 2
     clear
     figlet $nm
-    echo "pilih 15 pilihan dibawah ini" | lolcat
-    echo "[99]install bahan" | lolcat
-    echo "-------------------------------" | lolcat
-    echo "[0]Keluar" | lolcat
-    echo "-------------------------------" | lolcat
-    echo "=1=SCRIPT 5 TOOLS" | lolcat
-    echo "-------------------------------" | lolcat
-    echo "=2=SERANGAN L.O.S" | lolcat
-    echo "-------------------------------" | lolcat
-    echo "=3=INSTALL 200 TOOLS" | lolcat
-    echo "-------------------------------" | lolcat
-    echo "=4=SPAM BIASA" | lolcat
-    echo "-------------------------------" | lolcat
-    echo "=5=TOOLS VIRTEKS(VIRUS)" | lolcat
-    echo "-------------------------------" | lolcat
-    echo "=6=INSTALL BOTCHAT" | lolcat
-    echo "-------------------------------" | lolcat
-    echo "=7=INSTALL FAKECALL" | lolcat
-    echo "-------------------------------" | lolcat
-    echo "=8=INSTALL WIFIBUSTER" | lolcat
-    echo "-------------------------------" | lolcat
-    echo "=9=CCTV IPCS" | lolcat
-    echo "-------------------------------" | lolcat
-    echo "=10=GANTI TAMPILAN TERMUX" | lolcat
-    echo "-------------------------------" | lolcat
-    echo "=11=INSTALL DARKFB" | lolcat
-    echo "-------------------------------" | lolcat
-    echo "=12=SMS GRATIS" | lolcat
-    echo "-------------------------------" | lolcat
-    echo "=13=TOOLS HACK IG" | lolcat
-    echo "-------------------------------" | lolcat
-    echo "=14=TRANSLATE" | lolcat
-    echo "-------------------------------" | lolcat
-    echo "=15=INSTALL BOT IG" | lolcat
-    echo "-------------------------------" | lolcat
+    echo "pilih 15 pilihan dibawah ini" 
+    echo "[99]install bahan" 
+    echo "-------------------------------" 
+    echo "[0]Keluar" 
+    echo "-------------------------------" 
+    echo "=1=SCRIPT 5 TOOLS" 
+    echo "-------------------------------" 
+    echo "=2=SERANGAN L.O.S" 
+    echo "-------------------------------" 
+    echo "=3=INSTALL 200 TOOLS"
+    echo "-------------------------------" 
+    echo "=4=SPAM BIASA" 
+    echo "-------------------------------" 
+    echo "=5=TOOLS VIRTEKS(VIRUS)" 
+    echo "-------------------------------" 
+    echo "=6=INSTALL BOTCHAT" 
+    echo "-------------------------------" 
+    echo "=7=INSTALL FAKECALL" 
+    echo "-------------------------------" 
+    echo "=8=INSTALL WIFIBUSTER" 
+    echo "-------------------------------" 
+    echo "=9=CCTV IPCS" 
+    echo "-------------------------------" 
+    echo "=10=GANTI TAMPILAN TERMUX" 
+    echo "-------------------------------" 
+    echo "=11=INSTALL DARKFB" 
+    echo "-------------------------------" 
+    echo "=12=SMS GRATIS" 
+    echo "-------------------------------" 
+    echo "=13=TOOLS HACK IG" 
+    echo "-------------------------------"
+    echo "=14=TRANSLATE" 
+    echo "-------------------------------" 
+    echo "=15=INSTALL BOT IG" 
+    echo "-------------------------------"
     figlet BY MUFTI
     echo "LEGENDS OWL SQUAD"
     echo "jika ada tools yang belum work"
@@ -166,7 +166,7 @@ fi
 
 if [ $pl = 0 ]
 then
-    figlet BY MUFTI | lolcat
+    figlet BY MUFTI 
     echo "Sampai Jumpa Lagi" | lolcat
     sleep 1
     echo "proses keluar..." | lolcat
